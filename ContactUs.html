@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="landpage" content="with=device-width, 
+        initial-scale=1.0">
+        <title>Kauri Systems LLC</title>
+        <link rel="stylesheet" href="KSstyle.css">
+        <script type="text/javascript" src="KS.js"></script>
+    </head>
+    <body>
+        <section class="contactHeader">
+            <nav>
+                <div class="top-nav">
+                    <a href="Home.html">Home</a>
+                    <a href="Services.html">Services</a>
+                    <a href="Experience.html">Experience</a>
+                    <a href="ContactUs.html">Contact Us</a>
+                
+
+                <div class="socials">
+                    <a href=""><img src="Images/linkedin.png"
+                        width="25" height="25"></a>
+                    <a href=""><img src="Images/facebook.png"
+                        width="25" height="25"></a>
+                    <a href=""><img src="Images/twitter.png"
+                        width="25" height="25"></a>
+
+                </div>
+            </nav>
+        </section>
+        <video class="video" autoplay muted loop>
+            <source src="Images/Render 720p.mp4" type="video/mp4">
+        </video>
+        <div class="contactContainer">
+            <br>
+            <h3>Contact us</h3>
+            <form id="contactUs-form" class="contactUs-form" method="post" action="contactUs.php">
+            
+            <div class="input">
+                <input type="text" id="Name" name="Name" placeholder="Your name" class="contactUs-box" required>
+                <br><br>
+                <input type="email" id="Email" name="Email" placeholder="Your email" class="contactUs-box" required>
+                <br><br>
+                <textarea id="Message" name="Message" placeholder="Please type your message here..."
+                 class="contactUs-box" rows="6" maxlength="3000" required></textarea>
+            </div>
+            <br>
+            
+            <button type="submit" id="button" class="contactButton">Send</button>
+        </div>
+
+        <div class="footer">
+
+        </div>
+    </body>
+</html>
